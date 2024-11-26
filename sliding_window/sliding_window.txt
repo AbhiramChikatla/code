@@ -1,0 +1,11 @@
+Description & Process :
+Sliding window protocols are used in data transmission for efficient and reliable
+communication between two devices, typically over a network. These protocols help
+ensure that data is sent, received, and acknowledged correctly without overwhelming the
+receiver or sender.
+
+
+How It Works:
+Sender: The sender can transmit multiple frames of data up to the maximum window size. After sending these frames, it waits for an acknowledgment from the receiver.
+Receiver: The receiver acknowledges the frames it receives correctly. If a frame is lost or corrupted, it either requests a resend of that frame or ignores the corrupted frame.
+Sliding Window: Once the sender receives an acknowledgment for a frame, the window slides forward, allowing the sender to send the next frame in line. The window size limits how many frames the sender can send without waiting for an acknowledgment.
