@@ -1,0 +1,52 @@
+AIM: Implementation of socket programming.
+DESCRIPTION:
+Socket programming is a way to enable communication between two computers or applications over a
+network, whether it’s local (like on a LAN) or over the internet. Sockets facilitate this communication by
+establishing a bidirectional link between client and server processes, allowing them to send and receive data
+in real time. This forms the foundation of networked applications, including web servers, chat applications,
+multiplayer games, and more.
+In Python, the socket module provides functions and classes for working with network connections, enabling
+us to create sockets that can communicate using different protocols like TCP (for reliable, connection-based
+communication) and UDP (for fast, connectionless communication).
+Key Socket Methods in Python 
+Here's an overview of commonly used socket methods in Python:
+1. Creating a Socket
+socket.socket(family, type)
+o AF_INET: Specifies the address family for IPv4.
+o SOCK_STREAM: Specifies the type of socket for TCP, a reliable connection-oriented
+protocol.
+2. Binding to an Address (Server Side)
+socket.bind((ip_address, port))
+o Binds the socket to a specific IP address and port, setting it up to listen for connections on
+that address.
+3. Listening for Connections (Server Side)
+socket.listen(backlog)
+o Sets up the socket to listen for incoming connections, with backlog controlling how many
+connections it can queue.
+4. Accepting a Connection (Server Side)
+client_socket, address = socket.accept()
+o Accepts a connection from a client, returning a new socket for communication and the
+client’s address.
+5. Connecting to a Server (Client Side)
+socket.connect((ip_address, port))
+o Establishes a connection to a specified IP address and port on the server.
+6. Sending and Receiving Data
+
+o Sending: socket.send(data)
+Sends data to the connected socket. Data must be in bytes, so text is typically encoded (e.g.,
+.encode("utf-8")).
+o Receiving: socket.recv(buffer_size)
+Receives data from the socket up to the specified buffer_size in bytes. The received bytes are
+usually decoded into a string.
+7. Closing the Connection
+socket.close()
+Closes the socket, ending the communication. Both client and server must close their sockets when
+they’re done.
+These methods enable the fundamental operations of socket programming, allowing you to establish
+connections, exchange data, and close connections between client-server pairs.
+
+CONCLUSION:
+Socket programming in Python provides a powerful way to implement network-based communication
+between devices, enabling the creation of a wide range of applications, from web servers to chat systems. By
+using the socket module’s core methods, we can set up reliable TCP connections, manage data transfer, and
+gracefully close connections when communication is complete.

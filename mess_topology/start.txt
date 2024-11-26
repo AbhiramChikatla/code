@@ -1,0 +1,26 @@
+A mesh topology is a type of computer network in which each node (computer or other device) is connected to every other node in the network. This type of network is often used in large organisations or companies because it can handle a large amount of data traffic and can be easily expanded.
+If a mesh network has N nodes, then there are N(N-1)/2 links. Each computer not only sends its signals but also transfer data from other computers. The connections within the mesh are often wired or wireless. In this article, we will discuss the Mesh Topology in detail.
+
+
+
+- **Advantages:**
+  - High reliability; failure of one link doesn't affect other connections.
+  - Excellent fault tolerance and load balancing.
+- **Disadvantages:**
+  - Expensive to install and maintain due to many cables.
+  - Complex configuration and management.
+
+
+
+  Advantages of Mesh Topology
+In case of failure of a single device, the entire network didn’t break.
+There is no traffic problem as there is a dedicated point to point links for every device.
+Mesh Topology provides high privacy and security.
+Data transmission is more consistent because failure doesn’t disrupt its processes.
+Adding new devices won’t disrupt transmission of data.
+Disadvantages of Mesh Topology
+Mesh Topology is costly as compared to the other network topologies i.e. star, bus, point to point topology.
+Installation of nodes are difficult in mesh topology.
+Power requirement is higher as all the nodes will need to remain active all the time and share the load.
+Each node requires a extra utility cost.
+More maintenance is required in mesh topology.

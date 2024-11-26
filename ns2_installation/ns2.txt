@@ -1,0 +1,33 @@
+NS2, or Network Simulator 2, is a discrete-event network simulator used for researching and
+simulating computer networks. It's widely used in academia and research to model and
+analyze network protocols and performance. Developed in C++ and OTcl (an object-oriented
+version of Tcl), NS2 allows users to simulate various networking scenarios, including
+different network topologies, routing protocols, and traffic patterns.
+
+
+STEP 1
+Open terminal/command window and type the following commands one-by-one:
+sudo apt-get update
+sudo apt-get install ns2
+sudo apt-get install nam
+STEP 2
+Type the command “nam” at the terminal to see the NAM window. If you are unable to see
+the NAM window, then do the following process:
+•Go to https://ubuntu.pkgs.org/18.04/ubuntu-universe-amd64/nam_1.15-
+4_amd64.deb.html
+•Download “nam_1.14_amd64.deb” file from the above page
+•Type the command “sudo dpkg –-install nam_1.14_amd64.deb”
+if pop box is not opened then continue the step1 by going to downloads and executing the command
+in terminal
+after this a pop up box will be opened which is shown below
+
+
+CONCLUSION:
+The installation of Network Simulator 2 (NS2) has been successfully completed. The
+following key outcomes were achieved:
+1. Software Installation: NS2 was successfully installed on the system, including all necessary
+dependencies and components. The installation process was carried out as per the instructions,
+ensuring that both NS2 and its associated libraries are properly configured.
+2. Configuration: The simulator was configured correctly, with environment variables set up to
+facilitate smooth operation. This includes ensuring that paths to the NS2 binaries and libraries
+are properly defined.

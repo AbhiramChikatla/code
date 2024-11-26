@@ -1,0 +1,11 @@
+The Link state routing algorithm is also known as Dijkstra's algorithm which is used to find the shortest path from one node to every other node in the network.it achieves this by constructing a map of the entire network which includes node and distance information and uses this map to find the shortest distance.
+
+
+
+
+This code sets up a simple network with seven nodes arranged in a ring topology, where each node is
+connected to its adjacent nodes via duplex links. TCP agents are attached to node1 and node4, with
+an FTP application generating traffic over this TCP connection. The code introduces a brief link
+failure between node2 and node3 to simulate dynamic routing behavior. Using ns commands, the
+code initiates the FTP traffic, manages the link state, and schedules a final simulation end to visualize
+in NAM.

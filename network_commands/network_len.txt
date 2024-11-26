@@ -1,0 +1,66 @@
+1.ifconfig:
+Description: ifconfig is a command-line utility used in Unix-like operating systems, such as Linux and
+macOS, for configuring, controlling, and querying network interface parameters. It's primarily used for setting
+up IP addresses, enabling or disabling network interfaces, and viewing the network configuration of the
+system.
+Output:
+2.netstat
+Description: The netstat (Network Statistics) tool displays statistics for all network connections. It allows you
+to understand open and connected ports to monitor and troubleshoot networking problems for Windows 10
+and apps. When using the netstat tool, you can list active network connections and listening ports. You can
+view network adapter and protocols statistics. You can even display the current routing table and much more.
+Roll No: 160122733173 Exp. No: 04 Date: 01/08/2024
+Page No. Signature of the Faculty………………………...
+Output:
+3.traceroute:
+Description: It is a network diagnostic command used to track the path that packets take from your computer
+to a destination (such as a website or another server) across a network. It provides a step-by-step report of
+each "hop" the packets make as they traverse different routers on their way to the final destination.
+Output:
+4. ping
+Description:
+Verifies IP-level connectivity to another TCP/IP computer by sending Internet Control Message Protocol
+(ICMP) Echo Request messages. The receipt of corresponding Echo Reply messages are displayed, along with
+round-trip times. Ping is the primary TCP/IP command used totroubleshoot connectivity, reachability, and
+name resolution.
+It is one of the most basic yet useful network commands to utilize in the command prompt application. It tells
+you whether your computer can reach some destination IP address ordomain name, and if it can, how long it
+takes data to travel there and back again.
+Output:
+Roll No: 160122733173 Exp. No: 04 Date: 01/08/2024
+Page No. Signature of the Faculty………………………...
+5.route
+Description: route is a command-line utility used to view and manipulate the routing table of a computer or
+network device. The routing table is a set of rules or routes that determines the path that network traffic should
+take to reach a specific destination, based on the destination IP address.
+Output:
+6.nslookup
+Description: The nslookup (Name Server Lookup) tool can show valuable details to troubleshoot and resolve
+DNS-related issues. You can use this command to display the default DNS name and address of the local
+device, and determine the domain name of an IP address or the name servers for a specific node.
+Output:
+7.arp
+Description: arp is a command-line utility used to view and manipulate the ARP (Address Resolution
+Protocol) cache. ARP is a protocol that translates IP addresses into MAC addresses (the physical hardware
+addresses used by network devices to communicate on a local network). This translation is necessary because
+while IP addresses are used to route packets between networks, MAC addresses are used to deliver packets
+within the same local network segment.
+Output:
+Roll No: 160122733173 Exp. No: 04 Date: 01/08/2024
+Page No. Signature of the Faculty………………………...
+8.Hostname
+Description: hostname is a command-line utility that displays or sets the name of the current host (i.e., the
+computer or device). The hostname is a unique name assigned to a computer on a network, allowing it to be
+identified by other devices in the network. It is used in various network protocols and applications to
+distinguish between devices.
+Output:
+9.dig
+Description: dig stands for Domain Information Groper. It is a command-line tool used for querying DNS
+(Domain Name System) servers to retrieve information about DNS records. dig is a powerful and flexible tool
+often used by network administrators and developers to troubleshoot DNS issues, verify DNS configurations,
+and gather detailed information about domain names.
+Output:
+RESULTS:
+Fundamental network commands empower users to diagnose network issues, secure resources, and
+optimize network performance effectively. These commands form the backbone of the networking
+toolkit. These commands have been executed and the results have been displayed.

@@ -1,0 +1,26 @@
+Description :
+SMTP is an application layer protocol. The client who wants to send the mail opens a TCP connection to the
+SMTP server and then sends the mail across the connection. The SMTP server is an always-on listening mode.
+As soon as it listens for a TCP connection from any client, the SMTP process initiates a connection through port
+25. After successfully establishing a TCP connection the client process sends the mail instantly.
+SMTP Protocol
+The SMTP model is of two types:
+1. End-to-end method
+2. Store-and-forward method
+The end-to-end model is used to communicate between different organizations whereas the store and forward
+method is used within an organization.
+
+Components of SMTP
+1. Mail User Agent (MUA)
+2. Mail Submission Agent (MSA)
+3. Mail Transfer Agent (MTA)
+4. Mail Delivery Agent (MDA)
+1. Mail User Agent (MUA): It is a computer application that helps you in sending and retrieving mail. It is
+responsible for creating email messages for transfer to the mail transfer agent(MTA).
+
+2. Mail Submission Agent (MSA): It is a computer program that basically receives mail from a Mail User
+Agent(MUA) and interacts with the Mail Transfer Agent(MTA) for the transfer of the mail.
+3. Mail Transfer Agent(MTA): It is basically software that has the work to transfer mail from one system to
+another with the help of SMTP.
+4. Mail Delivery Agent(MDA): A mail Delivery agent or Local Delivery Agent is basically a system that helps
+in the delivery of mail to the local system.

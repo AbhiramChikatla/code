@@ -1,0 +1,23 @@
+Description :
+In a Linux environment, you can share files between nodes using basic file permissions and
+the Secure Copy Protocol (SCP) without relying on additional software like Samba or NFS.
+By setting appropriate file permissions, you can control who has access to the files or folders.
+For instance, using the chmod command, you can make a file readable by others or grant
+execute permissions to directories. This method ensures that only authorized users can access
+or modify the shared resources. The simplicity of this approach makes it particularly useful
+for quick, ad-hoc file sharing within a trusted network.
+To access and transfer files between nodes, SCP is a secure and straightforward method. SCP
+uses SSH to securely copy files between a local and a remote host or between two remote
+hosts. Users can transfer files or entire directories by specifying the source and destination
+paths along with the appropriate user credentials. This method is both secure and efficient,
+leveraging SSH encryption to protect the data during transfer. SCP is ideal for situations
+where you need to quickly share files across different nodes in a network without setting up
+complex file-sharing services
+
+
+
+
+File transfer in Linux using basic permissions and SCP provides a secure, efficient, and
+straightforward method for sharing resources across networked nodes without the need for
+complex configurations. This approach is ideal for quick, ad-hoc file sharing in trusted
+environments.

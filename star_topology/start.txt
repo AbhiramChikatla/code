@@ -1,0 +1,35 @@
+A Star topology is a type of network topology in which all the devices or nodes are physically connected to a
+central node such as a router, switch, or hub.The central hub receives messages and then passes them on to the intended destination or all other systems.
+
+
+
+Device Interface
+
+ IP Address Subnet Mask Def. Gateway
+192.168.20.5 N/A 192.168.20.5 255.255.255.0 192.168.20.1
+192.168.20.6 N/A 192.168.20.6 255.255.255.0 192.168.20.1
+192.168.20.7 N/A 192.168.20.7 255.255.255.0 192.168.20.1
+192.168.20.8 N/A 192.168.20.8 255.255.255.0 192.168.20.1
+192.168.20.9 N/A 192.168.20.9 255.255.255.0 192.168.20.1
+
+
+
+Advantages
+Scalability
+Low likelihood of data collisions
+Keeps away from point-to-point connections
+Disadvantages
+Need for more equipment
+Mobile device attachment is difficult or affects mobility
+Inadequate data transfer speeds
+Damage-prone cables
+
+
+Types of Star Topology
+There are two types of star topology:
+
+Active Star Topology
+Passive Star topology
+Active Star Topology: In active star topology, the central hub regenerates the signal when it passes through it. This simply means that the hub not only works as a connector but also boosts the signal and makes sure the signals reach their destination properly.
+
+Passive Star Topology: In passive star topology, the central hub simply connects the devices, but does not regenerate the signals. Here, the devices connected are responsible for the transmission of signals. Passive star topology is recommended for smaller setups.

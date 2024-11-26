@@ -1,0 +1,82 @@
+Here’s a simple explanation of each network command with syntax:
+
+1. **ping**  
+   - **Purpose:** The ping command is a network utility that verifies connectivity between a computer and another TCP/IP computer by sending Internet Control Message Protocol (ICMP) echo request messages. It's a useful tool for troubleshooting connectivity, reachability, and name resolution.
+   - **Syntax:**  
+     ```plaintext
+     ping [hostname or IP address]
+     ```
+   - **Example:**  
+     ```plaintext
+     ping google.com
+     ```
+
+2. **ipconfig**  
+   - **Purpose:** Displays network configuration details like IP address, subnet mask, and default gateway of your system.  
+   - **Syntax:**  
+     ```plaintext
+     ipconfig
+     ```  
+   - To get detailed information:  
+     ```plaintext
+     ipconfig /all
+     ```
+
+3. **arp**  
+   - **Purpose:** Displays or modifies the ARP (Address Resolution Protocol) table that maps IP addresses to MAC addresses on the network.  
+   - **Syntax:**  
+     ```plaintext
+     arp -a
+     ```  
+   - To add or delete entries:  
+     ```plaintext
+     arp -s [IP address] [MAC address]
+     arp -d [IP address]
+     ```
+
+4. **netstat**  
+   - **Purpose:** Displays active network connections, listening ports, and network statistics. Useful for troubleshooting.  
+   - **Syntax:**  
+     ```plaintext
+     netstat
+     ```  
+   - To see detailed information:  
+     ```plaintext
+     netstat -an
+     ```
+
+5. **tracert**  
+   - **Purpose:** Shows the path taken by packets to reach a destination, including intermediate hops and response times.  
+   - **Syntax:**  
+     ```plaintext
+     tracert [hostname or IP address]
+     ```  
+   - **Example:**  
+     ```plaintext
+     tracert google.com
+     ```
+
+6. **nslookup**  
+   - **Purpose:** Finds the IP address associated with a domain name or vice versa. Useful for DNS troubleshooting.  
+   - **Syntax:**  
+     ```plaintext
+     nslookup [domain name]
+     ```  
+   - **Example:**  
+     ```plaintext
+     nslookup google.com
+     ```
+
+7. **hostname**  
+   - **Purpose:** Displays the computer's hostname (name used to identify your device on the network).  
+   - **Syntax:**  
+     ```plaintext
+     hostname
+     ```
+
+8. **systeminfo**  
+   - **Purpose:** Provides detailed information about the system, such as OS version, memory, and network card details.  
+   - **Syntax:**  
+     ```plaintext
+     systeminfo
+     ```

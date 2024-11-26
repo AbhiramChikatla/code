@@ -1,0 +1,13 @@
+Description:The Stop-and-Wait protocol is used in data communication to ensure reliable
+transmission of data between two devices.The main characteristics of Stop-and-Wait include
+its simplicity and reliability, but it can be inefficient, especially over high-latency or highbandwidth networks, as it does not utilize the full potential of the network link due to its stopand-wait nature
+
+A brief overview of how it works:
+1. Transmission: The sender sends a single data packet to the receiver and then stops,
+waiting for an acknowledgment (ACK) from the receiver.
+2. Acknowledgment: Upon receiving the data packet, the receiver sends an
+acknowledgment back to the sender to confirm successful receipt.
+3. Wait for ACK: The sender waits for the acknowledgment before sending the next
+data packet. If the acknowledgment is not received within a certain timeout period, the
+sender retransmits the data packet.
+4. Repeat: This process repeats for each data packet sent.

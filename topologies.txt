@@ -1,0 +1,85 @@
+Topologies in computer networks refer to the arrangement of network nodes (e.g., computers, servers, and devices) and their connections. The topology defines how data flows through the network and influences its performance, scalability, and fault tolerance. The main types of network topologies are **Physical** and **Logical** topologies. Below are common types:
+
+---
+
+### 1. **Bus Topology**
+- **Description:** All devices are connected to a single central cable (bus). Data travels along this shared medium.
+- **Advantages:**
+  - Easy to set up and extend.
+  - Requires minimal cable length.
+  - Cost-effective for small networks.
+- **Disadvantages:**
+  - Limited scalability; performance degrades with more devices.
+  - A single cable failure affects the entire network.
+  - Difficult to troubleshoot.
+
+---
+
+### 2. **Star Topology**
+- **Description:** All devices are connected to a central hub or switch. Each device has a dedicated link to the hub.
+- **Advantages:**
+  - Easy to install and manage.
+  - Fault isolation is simple (a single link failure doesn't affect the rest of the network).
+  - Supports high-speed data transfer.
+- **Disadvantages:**
+  - Dependency on the central hub; hub failure disrupts the entire network.
+  - Higher cost due to more cables and the hub.
+
+---
+
+### 3. **Ring Topology**
+- **Description:** Devices are connected in a circular manner, forming a closed loop. Data travels in one direction (unidirectional) or both directions (bidirectional).
+- **Advantages:**
+  - Equal access to the network for all devices.
+  - Easier fault isolation compared to bus topology.
+- **Disadvantages:**
+  - A single node or link failure can disrupt the network unless using a dual ring.
+  - Slower performance as network size increases due to data passing through multiple devices.
+
+---
+
+### 4. **Mesh Topology**
+- **Description:** Every device is connected to every other device, either fully (direct links between all devices) or partially (some devices have direct links).
+- **Advantages:**
+  - High reliability; failure of one link doesn't affect other connections.
+  - Excellent fault tolerance and load balancing.
+- **Disadvantages:**
+  - Expensive to install and maintain due to many cables.
+  - Complex configuration and management.
+
+---
+
+### 5. **Tree Topology**
+- **Description:** A hierarchical arrangement where devices are connected in a tree-like structure, starting from a root node and branching out.
+- **Advantages:**
+  - Scalable; easy to add more nodes.
+  - Efficient for large networks with multiple sub-networks.
+- **Disadvantages:**
+  - A single point of failure in the root node affects the entire network.
+  - Difficult to manage as the network grows.
+
+---
+
+### 6. **Hybrid Topology**
+- **Description:** A combination of two or more topologies (e.g., star-bus, star-ring).
+- **Advantages:**
+  - Flexible and scalable; can accommodate various requirements.
+  - High fault tolerance if properly designed.
+- **Disadvantages:**
+  - Expensive and complex to design and maintain.
+  - Troubleshooting can be challenging due to mixed setups.
+
+---
+
+### Summary Table
+
+| **Topology**      | **Advantages**                              | **Disadvantages**                          |
+|--------------------|---------------------------------------------|--------------------------------------------|
+| **Bus**           | Simple, cost-effective                     | Limited scalability, single point failure  |
+| **Star**          | Easy to manage, fault isolation             | Hub dependency, higher cable cost          |
+| **Ring**          | Equal access, fault isolation               | Single failure disrupts network            |
+| **Mesh**          | Reliable, fault-tolerant                   | Expensive, complex configuration           |
+| **Tree**          | Scalable, good for sub-networks             | Root failure affects entire network        |
+| **Hybrid**        | Flexible, scalable, high fault tolerance    | Expensive, complex to manage               |
+
+Choosing the right topology depends on factors such as network size, budget, reliability requirements, and future scalability needs.

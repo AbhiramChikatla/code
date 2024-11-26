@@ -1,0 +1,43 @@
+Here's a step-by-step guide to installing and setting up Wireshark on Windows:
+
+### Step 1: Download Wireshark
+1. Go to the [Wireshark official download page](https://www.wireshark.org/download.html).
+2. Select the latest Windows installer (32-bit or 64-bit depending on your system) and download it.
+
+### Step 2: Install Wireshark
+1. Open the downloaded `.exe` file to start the installation.
+2. In the setup window, click **Next** and accept the license agreement.
+3. Choose components to install. By default, all essential components are selected. You can choose additional tools if needed (recommended: leave the default settings).
+4. **Install WinPcap** and **Npcap** when prompted. These are packet-capturing libraries required by Wireshark. If they are already installed, you can skip them.
+
+### Step 3: Complete the Installation
+1. After selecting components and libraries, click **Next** to complete the installation.
+2. Once the installation finishes, check the option to launch Wireshark (optional) and click **Finish**.
+
+### Step 4: Start and Configure Wireshark
+1. Open Wireshark from the Start Menu or desktop shortcut.
+2. In the main Wireshark window, you’ll see a list of network interfaces.
+3. Select the interface you want to capture traffic on (e.g., Ethernet, Wi-Fi).
+4. Click on the interface to start capturing traffic, or press the green **Start** button at the top.
+
+How to Capture Data Packets With Wireshark
+When you launch Wireshark, a welcome screen lists the available network connections on your current
+device. Displayed to the right of each is an EKG-style line graph that represents live traffic on that network.
+To begin capturing packets with Wireshark:
+1. Select one or more of networks, go to the menu bar, then select Capture.
+2. In the Wireshark Capture Interfaces window, select Start.
+3. Select File > Save As or choose an Export option to record the capture.
+4. To stop capturing, press Ctrl+E. Or, go to the Wireshark toolbar and select the red Stop button that's
+located next to the shark fin.
+
+How to View and Analyze Packet Contents
+The captured data interface contains three main sections:
+• The packet list pane (the top section)
+• The packet details pane (the middle section)
+• The packet bytes pane (the bottom section)
+
+
+The details pane, found in the middle, presents the protocols and protocol fields of the selected
+packet in a collapsible format. In addition to expanding each selection, you can apply individual
+Wireshark filters based on specific details and follow streams of data based on protocol type by
+right-clicking the desired item.
