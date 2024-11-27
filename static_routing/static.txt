@@ -1,0 +1,37 @@
+Static Routing is also known as non-adaptive routing which doesn’t change the routing table unless the network administrator changes or modifies them manually. Static routing does not use complex routing algorithms and It provides higher or more security than dynamic routing. 
+
+
+
+Advantages of Static Routing
+No routing overhead for the router CPU which means a cheaper router can be used to do routing.
+It adds security because only an only administrator can allow routing to particular networks only.
+No bandwidth usage between routers.
+Disadvantage of Static Routing
+For a large network, it is a hectic task for administrators to manually add each route for the network in the routing table on each router.
+The administrator should have good knowledge of the topology. If a new administrator comes, then he has to manually add each route so he should have very good knowledge of the routes of the topology.
+
+
+
+
+
+ Device Interface IP Address Subnet Mask Def. Gateway
+R1
+Fa0/0 192.100.2.1 255.255.255.0 N/A
+S0/0/0 10.0.0.1 255.0.0.0 N/A
+R2
+Fa0/0 172.200.3.1 255.255.0.0 N/A
+S0/0/0 11.0.0.1 255.0.0.0 N/A
+PC1 N/A 192.100.2.2 255.255.255.0 192.100.2.1
+PC2 N/A 172.200.3.2 255.255.0.0 172.200.3.1
+
+
+In static routing routes are user-defined.	In dynamic routing, routes are updated according to the topology.
+Static routing does not use complex routing algorithms.	Dynamic routing uses complex routing algorithms.
+Static routing provides high or more security.	Dynamic routing provides less security.
+Static routing is manual.	Dynamic routing is automated.
+Static routing is implemented in small networks.	Dynamic routing is implemented in large networks.
+In static routing, additional resources are not required.	In dynamic routing, additional resources are required.
+In static routing, failure of the link disrupts the rerouting.	In dynamic routing, failure of the link does not interrupt the rerouting.
+Less Bandwidth is required in Static Routing.	More Bandwidth is required in Dynamic Routing.
+Static Routing is difficult to configure.	Dynamic Routing is easy to configure.
+Another name for static routing is non-adaptive routing.

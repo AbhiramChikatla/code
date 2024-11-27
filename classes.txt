@@ -1,0 +1,64 @@
+An IPv4 address is a unique number assigned to every device that connects to the internet or a computer network. It’s like a home address for your computer, smartphone, or any other device, allowing it to communicate with other devices.
+
+
+Classful Addressing
+The 32-bit IP address is divided into five sub-classes. These are given below:
+
+Class A
+Class B
+Class C
+Class D
+Class E
+
+Class A
+IP addresses belonging to class A are assigned to the networks that contain a large number of hosts. 
+
+The network ID is 8 bits long.
+The host ID is 24 bits long.
+The higher-order bit of the first octet in class A is always set to 0. The remaining 7 bits in the first octet are used to determine network ID. The 24 bits of host ID are used to determine the host in any network. The default subnet mask for Class A is 255.x.x.x. Therefore, class A has a total of:
+
+2^24 – 2 = 16,777,214 host ID
+IP addresses belonging to class A ranges from 0.0.0.0 – 127.255.255.255. 
+
+
+
+Class B
+IP address belonging to class B is assigned to networks that range from medium-sized to large-sized networks. 
+
+The network ID is 16 bits long.
+The host ID is 16 bits long.
+The higher-order bits of the first octet of IP addresses of class B are always set to 10. The remaining 14 bits are used to determine the network ID. The 16 bits of host ID are used to determine the host in any network. The default subnet mask for class B is 255.255.x.x. Class B has a total of: 
+
+2^14 = 16384 network address
+2^16 – 2 = 65534 host address
+IP addresses belonging to class B ranges from 128.0.0.0 – 191.255.255.255.
+
+Class B
+Class B
+
+Class C
+IP addresses belonging to class C are assigned to small-sized networks.
+
+The network ID is 24 bits long.
+The host ID is 8 bits long.
+The higher-order bits of the first octet of IP addresses of class C is always set to 110. The remaining 21 bits are used to determine the network ID. The 8 bits of host ID are used to determine the host in any network. The default subnet mask for class C is 255.255.255.x. Class C has a total of:
+
+2^21 = 2097152 network address
+2^8 – 2 = 254 host address
+IP addresses belonging to class C range from 192.0.0.0 – 223.255.255.255.
+
+Class C
+Class C
+
+Class D
+IP address belonging to class D is reserved for multi-casting. The higher-order bits of the first octet of IP addresses belonging to class D is always set to 1110. The remaining bits are for the address that interested hosts recognize.
+
+Class D does not possess any subnet mask. IP addresses belonging to class D range from 224.0.0.0 – 239.255.255.255.
+
+Class D
+Class D
+
+Class E
+IP addresses belonging to class E are reserved for experimental and research purposes. IP addresses of class E range from 240.0.0.0 – 255.255.255.255. This class doesn’t have any subnet mask. The higher-order bits of the first octet of class E are always set to 1111.
+
+Class E
