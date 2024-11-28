@@ -1,0 +1,48 @@
+1.fifo
+2.lru -3:31
+3.optimal - 5:15
+4.banker - 6:07
+5.threads-6:33
+6.contiguous - 7:02
+7.linked-7:52
+8.indexed-9:12
+9.socket-9:30
+10.fcfs-11:47
+11.sjf -9:10
+12.fork,vfork,orphan,zombie- 10:25
+13.exit and _exit - 10:59
+14.atexit- 11:17
+15.unnamedpipe-11:49
+16.namedpipe - 12:16
+17.sharedmemory-13:01
+18: Semaphores - 3:04
+19.Producer 
+20.Consumer-7:34
+21 shell scripting-
+
+
+
+
+
+
+
+
+
+
+
+
+1. Demonstration of Linux/Unix file related system calls: mkdir, link, unlink, mount, unmount,
+users+, chown, chmod, open, close, read, write, lseek, stat, sync.
+2. Demonstration of Linux/Unix process related system calls: fork, wait, exec, exit, getpid,
+getuid, setuid brk, nice, sleep.
+3. Shell programming.
+4. Implement CPU scheduling algorithms (a) Round Robin (b) SJF (c) FCFS.
+xxxxxxx5. Implement page replacement algorithms (a) FIFO (b) LRU.
+xxxxxxx6. Programs to illustrate threads.
+xxxxxxx7. Demonstration of GNU/Linux IPC mechanisms- Pipes, Semaphores, Shared memory.
+xxxxxxx8. Implementation of Classical Problems for synchronization (Dining philosopher problem and
+Producer- Consumer problem).
+xxxxxxx9. Implementation of Bankers algorithm for Deadlock detection and avoidance.
+xxxxxxx10. Implementation of Linked, Indexed and Contiguous file allocation methods.
+11. Development of applications using Linux/Unix system calls: signal, socket, accept, snd, recv,
+connect. 
